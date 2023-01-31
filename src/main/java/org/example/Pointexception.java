@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Scanner;
 import java.util.logging.*;
-public class Pointexception implements Cloneable
+public class Pointexception implements cloneable
 {
     Logger l=Logger.getLogger("tyler");
     Integer x;
