@@ -4,7 +4,7 @@ import java.util.Scanner;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-public class Creditexception implements Cloneable
+public class Creditexception implements cloneable
 {
     Logger l=Logger.getLogger("tyler");
 
