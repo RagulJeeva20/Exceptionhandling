@@ -4,9 +4,9 @@ package org.example;
 import java.util.Scanner;
 import java.util.logging.*;
 
-class wrongchoice extends  Exception
+class Wrongchoice extends  Exception
 {
-    public wrongchoice (String s)
+    public Wrongchoice(String s)
     {
         super(s);
     }
@@ -68,11 +68,11 @@ public class Shapeswithexception {
                 l.info("shape Rectangle Has Been created");
             }
             else {
-                throw new wrongchoice(" you have entered wrong choice");
+                throw new Wrongchoice(" you have entered wrong choice");
             }
 
         }
-        catch (wrongchoice e)
+        catch (Wrongchoice e)
         {
             l.log(Level.INFO,() -> e.getMessage());
             System.exit(0);
